@@ -19,8 +19,8 @@ Hasil Pencarian
         <td>{{v.nama}}</td>
         <td>{{v.email}}</td>
         <td>{{v.pwd}}</td>
-        <td><a href="pns/edit/{{v.id}}">edit</a> </td>
-        <td><a href="pns/del/{{v.id}}">del</a></td>
+        <td><a href="{{ url('pns/edit/') }}{{v.id}}">edit</a> </td>
+        <td><a href="{{ url('pns/del/') }}{{v.id}}">del</a></td>
       </tr>
    {% if loop.last %}
     </tbody>

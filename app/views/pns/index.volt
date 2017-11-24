@@ -47,8 +47,8 @@
 					l.email
 				}}
 			</td>
-			<td><a href="pns/edit/{{l.id}}">edit</a></td>
-			<td><a href="pns/del/{{l.id}}">delete</a></td>
+			<td><a href="{{ url('pns/edit/') }}{{l.id}}">edit</a></td>
+			<td><a href="{{ url('pns/del/') }}{{l.id}}">delete</a></td>
 		</tr>
 		{% endfor %}
 	</tbody>

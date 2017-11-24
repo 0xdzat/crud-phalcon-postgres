@@ -17,9 +17,9 @@
             <h3 class="masthead-brand">CRUD Phalcon</h3>
 <nav>
     <ul class="nav masthead-nav">
-        <li><a href="localhost:8080/crud-phal/">Home</a></li>
-        <li><a href="http://localhost:8080/crud-phal/daftar">Daftar</a></li>
-        <li><a href="/crud-phal/pns">List</a></li>
+        <li><a href="{{ url() }}">Home</a></li>
+        <li><a href="{{ url('daftar') }}">Daftar</a></li>
+        <li><a href="{{ url('pns') }}">List</a></li>
     </ul>
 </nav>
 </div>

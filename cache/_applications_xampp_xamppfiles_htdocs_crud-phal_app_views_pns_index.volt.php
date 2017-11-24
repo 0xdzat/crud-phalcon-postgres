@@ -41,8 +41,8 @@
 			<td>
 				<?= $l->email ?>
 			</td>
-			<td><a href="pns/edit/<?= $l->id ?>">edit</a></td>
-			<td><a href="pns/del/<?= $l->id ?>">delete</a></td>
+			<td><a href="<?= $this->url->get('pns/edit/') ?><?= $l->id ?>">edit</a></td>
+			<td><a href="<?= $this->url->get('pns/del/') ?><?= $l->id ?>">delete</a></td>
 		</tr>
 		<?php } ?>
 	</tbody>
